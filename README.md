@@ -35,3 +35,6 @@ java -jar build/libs/tu-aplicacion-spring.jar
 GET /search?name=YOUR_NAME
 ```
 La respuesta contendrá los usuarios encontrados según el criterio de búsqueda.
+
+### Nota
+Se adjunto una colección de postman dentro del proyecto donde se puede realizar el ejemplo.
