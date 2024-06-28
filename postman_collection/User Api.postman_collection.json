@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "8c7b61ab-1e07-4e89-bba3-d8ba1cb50cc0",
+		"name": "User Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "YOUR_NAME",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/search?name=steven",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "steven"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
